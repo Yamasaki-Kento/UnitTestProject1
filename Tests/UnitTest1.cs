@@ -12,5 +12,11 @@ namespace Tests
             Assert.AreEqual(123, int.Parse("123"));
             Assert.AreEqual("01234567-89ab-cdef-0123-456789abcdef", new Guid("01234567-89ab-cdef-0123-456789abcdef").ToString("D"));
         }
+
+        [TestMethod]
+        public void TestMethod2()
+        {
+            Assert.AreEqual(1, int.Parse("1"));
+        }
     }
 }
